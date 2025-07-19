@@ -1,0 +1,11 @@
+github-mcp-server-guide/
+├── README.md
+├── docs/
+│   ├── index.md
+│   ├── setup/
+│   │   ├── local.md
+│   │   └── remote.md
+│   ├── config/
+│   │   └── mcp-config-example.md
+│   └── troubleshooting.md
+├── LICENSE
