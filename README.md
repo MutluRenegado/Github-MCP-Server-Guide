@@ -1,21 +1,30 @@
 # GitHub MCP Server Guide
 
-A step-by-step setup and usage guide for the [GitHub MCP Server](https://github.com/github/github-mcp-server). This repo includes configuration examples, install instructions, and troubleshooting tips.
+This guide explains how to install, configure, and run the GitHub MCP Server in both remote and local environments using Docker or binary builds.
 
-## 🔧 Installation Options
+## 🔗 What is the GitHub MCP Server?
 
-- [Remote (VS Code, Cursor, Claude)](installation/remote.md)
-- [Local via Docker](installation/local.md)
+The GitHub MCP Server connects AI tools directly to GitHub, enabling them to:
+- Analyze repositories and code
+- Manage issues and pull requests
+- Interact with CI/CD workflows
+- Provide secure, automated assistance via natural language
 
-## 🧩 Configuration Examples
+## 📦 Installation Options
 
-See [`config/mcp-config-examples.json`](config/mcp-config-examples.json) for real-world setup blocks.
+- [Remote GitHub MCP Server](docs/remote-install.md)
+- [Local Docker GitHub MCP Server](docs/local-install.md)
+- [Build From Source](docs/build-from-source.md)
 
-## ❓ Troubleshooting
+## ⚙️ Configuration
 
-Check [`troubleshooting.md`](troubleshooting.md) for common errors and solutions.
+- [Server Config Examples](docs/config-examples.md)
+- [Toolsets & Flags](docs/toolsets.md)
+
+## 🧰 Troubleshooting
+
+- [Common Errors & Fixes](docs/troubleshooting.md)
 
 ---
 
-**⭐ Tip:** Make sure you have a GitHub Personal Access Token with the correct permissions before starting.
-
+**⚠️ Note:** This guide is not affiliated with GitHub, but helps users understand how to interact with the official [github/github-mcp-server](https://github.com/github/github-mcp-server).
